@@ -51,8 +51,4 @@ and `localStorage` for persisting reports in the browser.
   a production version needs a lightweight API (e.g. Firebase) so reports
   from different phones appear on everyone's map in real time.
 
-## Team
-_Add your team name and members here._
 
-## License
-MIT (or update as needed).
