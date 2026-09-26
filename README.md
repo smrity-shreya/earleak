@@ -1,4 +1,4 @@
-# EarLeak — Acoustic Leak Detection
+# EarLeak : Acoustic Leak Detection
 
 Built for **EcoLogic 1.0** (Mercer | Mettl hackathon) — Water theme.
 
@@ -12,16 +12,10 @@ No smart meter, no hardware, no app install — it runs entirely in the
 browser.
 
 ## Live demo
-Open `index.html` in any modern browser (Chrome/Edge/Firefox), or serve it
-locally:
+https://smrity-shreya.github.io/earleak/
 
-```bash
-python3 -m http.server 8000
-# then open http://localhost:8000
-```
+## GitHub link
 
-Microphone access requires HTTPS or `localhost` — it will not work over a
-plain `http://` connection to another machine.
 
 ## Features
 - **Listen** — real-time mic recording + Web Audio analysis (signal energy,
