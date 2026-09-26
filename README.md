@@ -15,7 +15,7 @@ browser.
 https://smrity-shreya.github.io/earleak/
 
 ## GitHub link
-
+https://github.com/smrity-shreya/earleak.git
 
 ## Features
 - **Listen** — real-time mic recording + Web Audio analysis (signal energy,
@@ -35,14 +35,3 @@ https://smrity-shreya.github.io/earleak/
 Single-file HTML/CSS/JavaScript. No build step, no backend, no dependencies.
 Uses the native Web Audio API (`AnalyserNode`) for audio feature extraction
 and `localStorage` for persisting reports in the browser.
-
-## Known limitations (roadmap)
-- The classifier is a **tuned heuristic**, not a model trained on real
-  labelled recordings — next step is collecting a real leak/no-leak audio
-  dataset and training a small classifier (e.g. logistic regression / k-NN)
-  on the same features.
-- Reports are stored per-browser (`localStorage`), not on a shared backend —
-  a production version needs a lightweight API (e.g. Firebase) so reports
-  from different phones appear on everyone's map in real time.
-
-
